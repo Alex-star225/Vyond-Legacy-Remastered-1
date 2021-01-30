@@ -505,26 +505,6 @@ transition: none !important;
         </div>
     </div>
 </div>
-<div class="my-video-container">
-<script src="https://fast.wistia.com/embed/medias/70x3iky0kr.jsonp" async=""></script>
-<script src="https://fast.wistia.com/assets/external/E-v1.js" async=""></script>
-<script>
-window._wq = window._wq || [];
-_wq.push({ id: '70x3iky0kr', onReady: function(video) {
-    video.bind('play', function() {
-        amplitudeTrackEvent(AMPLITUDE_EVENT.VM5_START_IN_APP_VIDEO, {
-            page_url: window.location.href,
-            wistia_id: '70x3iky0kr',
-            message: 'Make Videos Faster'
-        });
-
-        return video.unbind;
-    })
-}});
-</script>
-
-
-
 <div class="container">
     <div class="page-header">
         <h1 class="h2">
